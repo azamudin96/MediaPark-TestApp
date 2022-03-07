@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <attr tools:override="true" name="strokeWidth" format="dimension"/>
+    <attr tools:override="true"  name="radius" format="dimension" />
+    <attr tools:override="true"  name="spacing" format="dimension" />
+    <attr tools:override="true"  name="count" format="integer" />
+    <attr tools:override="true" name="selectedColor" format="color" />
+    <attr tools:override="true" name="unselectedColor" format="color" />
+
+    <declare-styleable name="CircleIconView">
+        <attr name="clickable" />
+        <attr name="srcCompat" />
+        <attr name="tint" />
+        <attr name="background" />
+        <attr name="backgroundTint" />
+        <attr name="spacing" />
+    </declare-styleable>
+
+    <declare-styleable name="DefaultEditInput">
+        <attr name="title" format="string" />
+        <attr name="titleBackground" format="reference"/>
+        <attr name="prefixText" format="string" />
+        <attr name="suffixText" format="string" />
+        <attr name="suffixTextColor" />
+        <attr name="android:hint" />
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:enabled" />
+        <attr name="android:minLines" />
+        <attr name="android:maxLines" />
+        <attr name="android:lines" />
+        <attr name="android:singleLine" />
+        <attr name="android:textColor" />
+        <attr name="android:textColorHint" />
+        <attr name="android:maxLength" />
+        <attr name="android:inputType" />
+        <attr name="clickable" format="boolean" />
+        <attr name="endButton" format="boolean" />
+        <attr name="endIcon" format="reference"/>
+        <attr name="endIconTint"/>
+        <attr name="endBackground" format="reference"/>
+        <attr name="endClickable" format="boolean"/>
+        <attr name="iconEndPadding" />
+        <attr name="startButton" format="boolean" />
+        <attr name="startIcon" format="reference"/>
+        <attr name="startBackground" format="reference"/>
+        <attr name="iconStartPadding" />
+    </declare-styleable>
+
+</resources>

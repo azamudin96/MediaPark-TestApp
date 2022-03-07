@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- line -->
+    <dimen name="line_xs">1px</dimen>
+    <dimen name="line_s">1dp</dimen>
+    <dimen name="line">2dp</dimen>
+    <dimen name="line_l">4dp</dimen>
+    <dimen name="line_xl">6dp</dimen>
+    <dimen name="line_xxl">10dp</dimen>
+
+    <dimen name="small_icon_xs">12dp</dimen>
+    <dimen name="small_icon_s">16dp</dimen>
+    <dimen name="small_icon">20dp</dimen>
+    <dimen name="small_icon_l">24dp</dimen>
+    <dimen name="small_icon_xl">28dp</dimen>
+
+    <!-- icon -->
+    <dimen name="icon_xxxs">16dp</dimen>
+    <dimen name="icon_xxs">20dp</dimen>
+    <dimen name="icon_xs">32dp</dimen>
+    <dimen name="icon_xsm">36dp</dimen>
+    <dimen name="icon_s">40dp</dimen>
+    <dimen name="icon">48dp</dimen>
+    <dimen name="icon_l">56dp</dimen>
+    <dimen name="icon_xl">64dp</dimen>
+    <dimen name="icon_xxl">72dp</dimen>
+
+    <dimen name="image_s">84dp</dimen>
+    <dimen name="image">100dp</dimen>
+    <dimen name="image_l">116dp</dimen>
+    <dimen name="image_xl">132dp</dimen>
+    <dimen name="image_xxl">148dp</dimen>
+    <dimen name="image_xxxl">164dp</dimen>
+
+    <!-- text -->
+    <dimen name="text_xxs">8sp</dimen>
+    <dimen name="text_xs">10sp</dimen>
+    <dimen name="text_s">12sp</dimen>
+    <dimen name="text">14sp</dimen>
+    <dimen name="text_l">16sp</dimen>
+    <dimen name="text_xlm">18sp</dimen>
+    <dimen name="text_xl">20sp</dimen>
+    <dimen name="text_xxl">24sp</dimen>
+    <dimen name="text_xxxl">28sp</dimen>
+    <dimen name="text_min">1sp</dimen>
+
+    <dimen name="text_header">32sp</dimen>
+    <dimen name="text_header_l">36sp</dimen>
+    <dimen name="text_header_xl">40sp</dimen>
+
+    <!-- spacing -->
+    <dimen name="n_spacing">-16dp</dimen>
+    <dimen name="n_spacing_l">-24dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xsm">6dp</dimen>
+    <dimen name="spacing_s">8dp</dimen>
+    <dimen name="spacing_sms">10dp</dimen>
+    <dimen name="spacing_sm">12dp</dimen>
+    <dimen name="spacing_sml">14dp</dimen>
+    <dimen name="spacing">16dp</dimen>
+    <dimen name="spacing_lm">20dp</dimen>
+    <dimen name="spacing_l">24dp</dimen>
+    <dimen name="spacing_xlm">28dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xxl">40dp</dimen>
+    <dimen name="spacing_xxxl">48dp</dimen>
+
+    <!-- radius -->
+    <dimen name="radius">8dp</dimen>
+    <dimen name="radius_l">16dp</dimen>
+    <dimen name="radius_xlm">20dp</dimen>
+    <dimen name="radius_xl">24dp</dimen>
+    <dimen name="radius_xxl">30dp</dimen>
+    <dimen name="radius_xxxl">48dp</dimen>
+    <dimen name="card_radius">@dimen/radius_xlm</dimen>
+
+    <!-- Elevation -->
+    <dimen name="n_elevation">-4dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+    <dimen name="elevation_l">8dp</dimen>
+    <dimen name="elevation_xl">12dp</dimen>
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="card_top_radius_elevation">10dp</dimen>
+
+    <!-- Custom -->
+    <dimen name="chat_message_gap">80dp</dimen>
+    <dimen name="near_me_text_max_width">112dp</dimen>
+    <dimen name="default_header_height">52dp</dimen>
+    <dimen name="default_toolbar_height">56dp</dimen>
+    <dimen name="account_detail_tablayout_height">48dp</dimen>
+    <dimen name="default_tablayout_height">64dp</dimen>
+    <dimen name="account_detail_toolbar_height">80dp</dimen>
+    <dimen name="close_button_spacing">14dp</dimen>
+    <dimen name="indicator_step_radius">5dp</dimen>
+    <dimen name="picker_item_height">56dp</dimen>
+    <dimen name="field_height">48dp</dimen>
+    <dimen name="login_main_title_text">48sp</dimen>
+    <dimen name="login_main_content_margin_bottom">80dp</dimen>
+    <dimen name="main_bottom_nav_height">56dp</dimen>
+    <dimen name="main_bottom_fab_height">64dp</dimen>
+    <dimen name="register_pin_button_height">64dp</dimen>
+    <dimen name="spacing_card_content">48dp</dimen>
+    <dimen name="navigation_drawer_width">250dp</dimen>
+    <dimen name="height_button_primary">64dp</dimen>
+    <dimen name="height_button_secondary">52dp</dimen>
+    <dimen name="detail_amount_max_width">120dp</dimen>
+    <dimen name="height_layout_header">56dp</dimen>
+
+    <item name="default_button_width_percent" format="float" type="dimen">.75</item>
+    <item name="default_button_width_new_percent" format="float" type="dimen">.8</item>
+    <dimen name="spacing_top_header">0dp</dimen>
+<!--    <dimen name="design_bottom_navigation_height" tools:override="true">@dimen/icon_xxl</dimen>-->
+    <dimen name="text_margin">16dp</dimen>
+</resources>

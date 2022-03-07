@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/circle_icon_view_img_icon_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/shape_circle_ziggurat_background"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/circle_icon_view_img_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"/>
+
+    <View
+        android:id="@+id/view_clickable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/SelectableBorderlessButton"/>
+</FrameLayout>

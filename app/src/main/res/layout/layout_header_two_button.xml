@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/spacing_s"
+    android:paddingHorizontal="@dimen/spacing_lm">
+
+    <Space
+        android:id="@+id/space_header"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/spacing_top_header"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btn_default_back"
+        android:layout_width="@dimen/icon_xs"
+        android:layout_height="@dimen/icon_xs"
+        android:layout_marginVertical="@dimen/spacing_xs"
+        android:paddingVertical="@dimen/spacing_s"
+        android:tint="@android:color/black"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/vec_icon_back_02"
+        app:layout_constraintTop_toBottomOf="@+id/space_header"
+        app:layout_constraintLeft_toLeftOf="parent"
+        style="@style/SelectableBorderlessButton"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btn_header_help"
+        android:layout_width="@dimen/icon_s"
+        android:layout_height="@dimen/icon_s"
+        android:layout_marginEnd="@dimen/spacing_xs"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        app:layout_goneMarginEnd="0dp"
+        app:srcCompat="@drawable/vec_icon_help_02"
+        app:layout_constraintTop_toBottomOf="@+id/space_header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_header_action"
+        style="@style/SelectableBorderlessButton"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btn_header_action"
+        android:layout_width="@dimen/icon_xs"
+        android:layout_height="@dimen/icon_xs"
+        android:layout_marginVertical="@dimen/spacing_xs"
+        android:paddingVertical="@dimen/spacing_s"
+        android:tint="@android:color/black"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/vec_icon_close"
+        app:layout_constraintTop_toBottomOf="@+id/space_header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/SelectableBorderlessButton"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
